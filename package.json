@@ -1,6 +1,6 @@
 {
   "name": "goodreads-bookshelf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Facade of Goodreads Bookshelf",
   "main": "index.js",
   "types": "lib/index.d.ts",
