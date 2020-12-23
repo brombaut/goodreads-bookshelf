@@ -1,6 +1,6 @@
 import { BookDataFileReader } from './../book-data-file-reader';
 
-describe('Book class', () => {
+describe('BookDataFileReader class', () => {
   const GR_RESPONSE_FILE = './__tests__/goodreads-response.xml';
 
   let bdfr: BookDataFileReader;

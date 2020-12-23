@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 import { BookDataFetcher } from "./book-data-fetcher";
 
 export class GoodreadsApiFetcher implements BookDataFetcher {
@@ -16,8 +17,15 @@ export class GoodreadsApiFetcher implements BookDataFetcher {
   }
 
   async fetch() {
+    // NOTE: will have to confirm this works when the client it using it from the browser
     const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-    return fetch(`${proxyUrl}${this.url}`).then(res => res.text());
+    const fullUrl = `${this.url}`;
+    const response = await fetch(fullUrl);
+    if (!response.ok) {
+      throw new Error("Error making request")
+    }
+    const body = response.text();
+    return body;
   }
 
   incrementPage(): void {
