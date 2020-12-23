@@ -1,4 +1,4 @@
-import { Shelf } from "./shelf";
+import { Shelf } from './shelf';
 
 export interface BookDTO {
   title: string;

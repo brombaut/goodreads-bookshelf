@@ -1,5 +1,5 @@
 export enum Shelf {
-  READ = "read",
-  TOREAD = "to-read",
-  CURRENTLYREADING = "currently-reading"
-};
+  READ = 'read',
+  TOREAD = 'to-read',
+  CURRENTLYREADING = 'currently-reading',
+}

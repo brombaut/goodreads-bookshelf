@@ -1,5 +1,5 @@
-import { Book } from "./book";
-import { Shelf } from "./shelf";
+import { Book } from './book';
+import { Shelf } from './shelf';
 
 export class Bookshelf {
   private _books: Book[];
@@ -15,9 +15,7 @@ export class Bookshelf {
   }
 
   public readBooks(): Book[] {
-    return this._books
-      .filter((book: Book) => book.shelf() === Shelf.READ)
-      .sort(this.sortRecentlyFinishedBooksFirst);
+    return this._books.filter((book: Book) => book.shelf() === Shelf.READ).sort(this.sortRecentlyFinishedBooksFirst);
   }
 
   public readingBooks(): Book[] {

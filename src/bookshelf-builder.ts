@@ -1,8 +1,8 @@
-import { BookDataFetcher } from "./book-data-fetcher";
-import { BookDataParser } from "./book-data-parser";
-import { Bookshelf } from "./bookshelf";
-import { Book}  from "./book";
-import { BookDTO } from "./book-dto";
+import { BookDataFetcher } from './book-data-fetcher';
+import { BookDataParser } from './book-data-parser';
+import { Bookshelf } from './bookshelf';
+import { Book } from './book';
+import { BookDTO } from './book-dto';
 
 export class BookshelfBuilder {
   private _dataFetcher: BookDataFetcher;

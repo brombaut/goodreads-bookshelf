@@ -1,7 +1,7 @@
-import { BookDataParser } from "./book-data-parser";
-import { BookDTO } from "./book-dto";
+import { BookDataParser } from './book-data-parser';
+import { BookDTO } from './book-dto';
 
-import { parseStringPromise } from "xml2js";
+import { parseStringPromise } from 'xml2js';
 
 interface Pagination {
   start: string;
@@ -48,8 +48,8 @@ export class BookXmlParser implements BookDataParser {
       rating: review.rating[0],
       shelf: review.shelves[0].shelf[0].$.name,
     };
-    if (typeof bookDto.isbn13 === "object") {
-      bookDto.isbn13 = "";
+    if (typeof bookDto.isbn13 === 'object') {
+      bookDto.isbn13 = '';
     }
     return bookDto;
   }
@@ -61,5 +61,4 @@ export class BookXmlParser implements BookDataParser {
       this._done = true;
     }
   }
-
 }

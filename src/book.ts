@@ -1,5 +1,5 @@
-import { BookDTO } from "./book-dto";
-import { Shelf } from "./shelf";
+import { BookDTO } from './book-dto';
+import { Shelf } from './shelf';
 
 export class Book {
   private _title: string;
@@ -25,7 +25,7 @@ export class Book {
   }
 
   private parseDate(input: string) {
-    const parts = input.split(" ");
+    const parts = input.split(' ');
     const monthIndex = this.monthIndex(parts[1]);
     const day = Number(parts[2]);
     const year = Number(parts[5]);
@@ -33,20 +33,7 @@ export class Book {
   }
 
   private monthIndex(monthAbbr: string): number {
-    const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ];
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     return months.findIndex((a: string) => a === monthAbbr);
   }
 
@@ -63,7 +50,7 @@ export class Book {
   }
 
   localImageUrl(): string {
-    return this._isbn13 ? `${this._isbn13}.jpg` : "";
+    return this._isbn13 ? `${this._isbn13}.jpg` : '';
   }
 
   link(): string {
