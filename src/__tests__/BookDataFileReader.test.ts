@@ -13,14 +13,6 @@ describe('Book class', () => {
     expect(bdfr).toBeInstanceOf(BookDataFileReader);
   });
 
-  it('throws error when using pagination', () => {
-    try {
-      bdfr.incrementPage();
-    } catch (e) {
-      expect(e.message).toBe('Method not implemented');
-    }
-  });
-
   it('successfully reads the file', () => {
     expect.assertions(1);
     return bdfr.fetch().then((data: string) => {

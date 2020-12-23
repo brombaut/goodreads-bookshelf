@@ -10,7 +10,7 @@ export class BookDataFileReader implements BookDataFetcher {
   }
 
   incrementPage(): void {
-    throw new Error('Method not implemented');
+    return;
   }
 
   async fetch(): Promise<string> {
