@@ -11,5 +11,8 @@
     "json",
     "node"
   ],
-  "collectCoverage": true
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/{!(goodreads-bookshelf),}.ts"
+  ]
 }
