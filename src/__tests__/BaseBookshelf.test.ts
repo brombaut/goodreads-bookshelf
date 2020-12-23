@@ -114,6 +114,6 @@ function getBooks(): Book[] {
     },
   ];
 
-  const result: Book[] = bookDTOs.map((dto: BookDTO) => new Book(dto))
+  const result: Book[] = bookDTOs.map((dto: BookDTO) => new Book(dto));
   return result;
 }

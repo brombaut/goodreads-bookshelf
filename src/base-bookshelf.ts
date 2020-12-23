@@ -1,8 +1,8 @@
 import { Book } from './book';
-import { Bookshelf } from "./bookshelf";
+import { Bookshelf } from './bookshelf';
 import { Shelf } from './shelf';
 
-export class BaseBookshelf implements Bookshelf{
+export class BaseBookshelf implements Bookshelf {
   private _books: Book[];
 
   constructor(books: Book[]) {

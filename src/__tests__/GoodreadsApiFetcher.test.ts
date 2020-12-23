@@ -1,5 +1,5 @@
-import { GoodreadsApiFetcher } from "./../goodreads-api-fetcher";
-import goodreadsconfig from "../config/goodreads-config"
+import { GoodreadsApiFetcher } from './../goodreads-api-fetcher';
+import goodreadsconfig from '../config/goodreads-config';
 
 describe('GoodreadsApiFetcher class', () => {
   let gaf: GoodreadsApiFetcher;
@@ -9,8 +9,8 @@ describe('GoodreadsApiFetcher class', () => {
   });
 
   it('successfully set env variables', () => {
-    expect(goodreadsconfig.id).toBeTruthy()
-    expect(goodreadsconfig.key).toBeTruthy()
+    expect(goodreadsconfig.id).toBeTruthy();
+    expect(goodreadsconfig.key).toBeTruthy();
   });
 
   it('successfully constructs a BookDataFileReader', () => {

@@ -1,9 +1,9 @@
-import { BookDataParser } from "./../book-data-parser";
-import { BookshelfBuilder } from "./../bookshelf-builder";
-import { BookDataFetcher } from "./../book-data-fetcher";
-import { BookDataFileReader } from "../book-data-file-reader";
-import { BookXmlParser } from "../book-xml-parser";
-import { BaseBookshelf } from "../base-bookshelf";
+import { BookDataParser } from './../book-data-parser';
+import { BookshelfBuilder } from './../bookshelf-builder';
+import { BookDataFetcher } from './../book-data-fetcher';
+import { BookDataFileReader } from '../book-data-file-reader';
+import { BookXmlParser } from '../book-xml-parser';
+import { BaseBookshelf } from '../base-bookshelf';
 
 describe('BookshelfBuilder class', () => {
   const GR_RESPONSE_FILE = './__tests__/goodreads-response.xml';
@@ -13,7 +13,7 @@ describe('BookshelfBuilder class', () => {
   beforeAll(async () => {
     const bdfr: BookDataFetcher = new BookDataFileReader(GR_RESPONSE_FILE);
     const bxp: BookDataParser = new BookXmlParser();
-    bookshelfBuilder = new BookshelfBuilder(bdfr, bxp)
+    bookshelfBuilder = new BookshelfBuilder(bdfr, bxp);
   });
 
   it('successfully constructs a BookshelfBuilder', () => {
@@ -23,6 +23,6 @@ describe('BookshelfBuilder class', () => {
   it('succesfully builds a bookshelf', () => {
     return bookshelfBuilder.build().then((result: BaseBookshelf) => {
       expect(result).toBeInstanceOf(BaseBookshelf);
-    })
+    });
   });
 });
