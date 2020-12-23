@@ -4,11 +4,8 @@ import { Shelf } from "./shelf";
 export class Book {
   private _title: string;
   private _author: string;
-  private _isbn: string;
   private _isbn13: string;
   private _imageUrl: string;
-  private _smallImageUrl: string;
-  private _largeImageUrl: string;
   private _link: string;
   private _dateStarted: Date;
   private _dateFinished: Date;
@@ -18,11 +15,8 @@ export class Book {
   constructor(bookDto: BookDTO) {
     this._title = bookDto.title;
     this._author = bookDto.author;
-    this._isbn = bookDto.isbn;
     this._isbn13 = bookDto.isbn13;
     this._imageUrl = bookDto.imageUrl;
-    this._smallImageUrl = bookDto.smallImageUrl;
-    this._largeImageUrl = bookDto.largeImageUrl;
     this._link = bookDto.link;
     this._dateStarted = this.parseDate(bookDto.dateStarted);
     this._dateFinished = this.parseDate(bookDto.dateFinished);

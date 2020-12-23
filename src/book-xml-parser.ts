@@ -40,20 +40,14 @@ export class BookXmlParser implements BookDataParser {
     const bookDto = {
       title: review.book[0].title[0],
       author: review.book[0].authors[0].author[0].name[0],
-      isbn: review.book[0].isbn[0],
       isbn13: review.book[0].isbn13[0],
       imageUrl: review.book[0].image_url[0],
-      smallImageUrl: review.book[0].image_url[0],
-      largeImageUrl: review.book[0].large_image_url[0],
       link: review.book[0].link[0],
       dateStarted: review.date_added[0],
       dateFinished: review.read_at[0],
       rating: review.rating[0],
       shelf: review.shelves[0].shelf[0].$.name,
     };
-    if (typeof bookDto.isbn === "object") {
-      bookDto.isbn = "";
-    }
     if (typeof bookDto.isbn13 === "object") {
       bookDto.isbn13 = "";
     }
