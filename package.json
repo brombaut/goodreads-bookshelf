@@ -2,7 +2,7 @@
   "name": "goodreads-bookshelf",
   "version": "0.0.4",
   "description": "Facade of Goodreads Bookshelf",
-  "main": "index.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",
