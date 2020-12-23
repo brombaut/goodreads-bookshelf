@@ -5,3 +5,4 @@ install:
  - npm install
 script:
  - npm test
+after_script: './node_modules/.bin/codecov --token="4a38d70f-5f8b-4c14-aca9-12943c2e2ead"'
