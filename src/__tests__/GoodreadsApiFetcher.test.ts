@@ -8,6 +8,11 @@ describe('GoodreadsApiFetcher class', () => {
     gaf = new GoodreadsApiFetcher(goodreadsconfig.id, goodreadsconfig.key);
   });
 
+  it('successfully set env variables', () => {
+    expect(goodreadsconfig.id).toBeTruthy()
+    expect(goodreadsconfig.key).toBeTruthy()
+  });
+
   it('successfully constructs a BookDataFileReader', () => {
     expect(gaf).toBeInstanceOf(GoodreadsApiFetcher);
   });
