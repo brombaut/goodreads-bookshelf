@@ -1,1 +1,3 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+export * from "./book";
+export * from "./bookshelf-builder";
+export * from "./bookshelf"
