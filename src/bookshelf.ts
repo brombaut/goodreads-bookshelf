@@ -3,15 +3,9 @@ import { Shelf } from './shelf';
 
 export class Bookshelf {
   private _books: Book[];
-  private _isTempBookshelf: boolean;
 
-  constructor(books: Book[], isTemp: boolean = false) {
+  constructor(books: Book[]) {
     this._books = books;
-    this._isTempBookshelf = isTemp;
-  }
-
-  public isTemp(): boolean {
-    return this._isTempBookshelf;
   }
 
   public readBooks(): Book[] {
@@ -38,33 +32,21 @@ export class Bookshelf {
   private readBookYears(): number[] {
     const years: number[] = [];
     this.readBooks().forEach((book: Book) => {
-      if (Number.isNaN(book.yearFinished())) {
-        return;
+      const shouldAdd: boolean = !Number.isNaN(book.yearFinished()) && !years.includes(book.yearFinished());
+      if (shouldAdd) {
+        years.push(book.yearFinished());
       }
-      if (years.includes(book.yearFinished())) {
-        return;
-      }
-      years.push(book.yearFinished());
     });
     return years.sort((a: number, b: number) => {
-      if (a > b) {
-        return 1;
-      }
-      return -1;
+      return a - b;
     });
   }
 
   private sortRecentlyFinishedBooksFirst(a: Book, b: Book): number {
-    if (a.dateFinished() < b.dateFinished()) {
-      return 1;
-    }
-    return -1;
+    return b.dateFinished().getTime() - a.dateFinished().getTime();
   }
 
   private sortRecentlyStartedBooksFirst(a: Book, b: Book): number {
-    if (a.dateStarted() < b.dateStarted()) {
-      return 1;
-    }
-    return -1;
+    return b.dateStarted().getTime() - a.dateStarted().getTime();
   }
 }
