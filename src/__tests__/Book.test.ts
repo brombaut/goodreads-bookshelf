@@ -38,7 +38,7 @@ describe("Book class", () => {
     book2 = new Book(bookDto2)
   })
 
-  it('successfully builds a book dta',() => {
+  it('successfully constructs a Book',() => {
     expect(book1).toBeInstanceOf(Book);
     expect(book2).toBeInstanceOf(Book);
   })

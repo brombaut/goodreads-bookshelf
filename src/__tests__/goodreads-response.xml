@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key><![CDATA[mlNe4pqsW02fhvEOKxu7mg]]></key>
+    <method><![CDATA[review_list]]></method>
+  </Request>
+
+  <reviews start="1" end="4" total="4">
+
+    <review>
+      <id>3700722042</id>
+      <book>
+        <id type="integer">26083308</id>
+        <isbn>1942788002</isbn>
+        <isbn13>9781942788003</isbn13>
+        <text_reviews_count type="integer">214</text_reviews_count>
+        <uri>kca://book/amzn1.gr.book.v1.OHb1bYr9LB2gk6tTa4PUpQ</uri>
+        <title>The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</title>
+        <title_without_series>The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations</title_without_series>
+        <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473461230l/26083308._SX98_.jpg</image_url>
+        <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473461230l/26083308._SY75_.jpg</small_image_url>
+        <large_image_url/>
+        <link>https://www.goodreads.com/book/show/26083308-the-devops-handbook</link>
+        <num_pages>437</num_pages>
+        <format>Paperback</format>
+        <edition_information/>
+        <publisher>IT Revolution Press</publisher>
+        <publication_day>6</publication_day>
+        <publication_year>2016</publication_year>
+        <publication_month>10</publication_month>
+        <average_rating>4.34</average_rating>
+        <ratings_count>3226</ratings_count>
+        <description>Increase profitability, elevate work culture, and exceed productivity goals through DevOps practices.&lt;br /&gt;&lt;br /&gt;More than ever, the effective management of technology is critical for business competitiveness. For decades, technology leaders have struggled to balance agility, reliability, and security. The consequences of failure have never been greater whether it's the healthcare.gov debacle, cardholder data breaches, or missing the boat with Big Data in the cloud.&lt;br /&gt;&lt;br /&gt;And yet, high performers using DevOps principles, such as Google, Amazon, Facebook, Etsy, and Netflix, are routinely and reliably deploying code into production hundreds, or even thousands, of times per day.&lt;br /&gt;&lt;br /&gt;Following in the footsteps of The Phoenix Project, The DevOps Handbook shows leaders how to replicate these incredible outcomes, by showing how to integrate Product Management, Development, QA, IT Operations, and Information Security to elevate your company and win in the marketplace."&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Table of contents&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;Preface&lt;br /&gt;Spreading the Aha! Moment&lt;br /&gt;Introduction&lt;br /&gt;&lt;br /&gt;PART I: THE THREE WAYS&lt;br /&gt;1. Agile, continuous delivery and the three ways&lt;br /&gt;2. The First Way: The Principles of Flow&lt;br /&gt;3. The Second Way: The Principle of Feedback&lt;br /&gt;4. The Third Way: The Principles of Continual Learning&lt;br /&gt;&lt;br /&gt;PART II: WHERE TO START&lt;br /&gt;5. Selecting which value stream to start with&lt;br /&gt;6. Understanding the work in our value stream…&lt;br /&gt;7. How to design our organization and architecture&lt;br /&gt;8. How to get great outcomes by integrating operations into the daily work for development&lt;br /&gt;&lt;br /&gt;PART III: THE FIRST WAY: THE TECHNICAL PRACTICES OF FLOW&lt;br /&gt;9. Create the foundations of our deployment pipeline&lt;br /&gt;10. Enable fast and reliable automated testing&lt;br /&gt;11. Enable and practice continuous integration&lt;br /&gt;12. Automate and enable low-risk releases&lt;br /&gt;13. Architect for low-risk releases&lt;br /&gt;&lt;br /&gt;PART IV: THE SECOND WAY: THE TECHNICAL PRACTICES OF FEEDBACK&lt;br /&gt;14*. Create telemetry to enable seeing abd solving problems&lt;br /&gt;15. Analyze telemetry to better anticipate problems&lt;br /&gt;16. Enable feedbackso development and operation can safely deploy code&lt;br /&gt;17. Integrate hypothesis-driven development and A/B testing into our daily work&lt;br /&gt;18. Create review and coordination processes to increase quality of our current work&lt;br /&gt;&lt;br /&gt;PART V: THE THRID WAY: THE TECHNICAL PRACTICES OF CONTINUAL LEARNING&lt;br /&gt;19. Enable and inject learning into daily work&lt;br /&gt;20. Convert local discoveries into global improvements&lt;br /&gt;21. Reserve time to create organizational learning&lt;br /&gt;22. Information security as everyone’s job, every day&lt;br /&gt;23. Protecting the deployment pipeline&lt;br /&gt;&lt;br /&gt;PART VI: CONCLUSION&lt;br /&gt;A call to action&lt;br /&gt;Conclusion to the DevOps Handbook&lt;br /&gt;&lt;br /&gt;APPENDICES&lt;br /&gt;1. The convergence of Devops&lt;br /&gt;2. The theory of constraints and core chronic conflicts&lt;br /&gt;3. Tabular form of downward spiral&lt;br /&gt;4. The dangers of handoffs and queues&lt;br /&gt;5. Myths of industrial safety&lt;br /&gt;6. The Toyota Andon Cord&lt;br /&gt;7. COTS Software&lt;br /&gt;8. Post-mortem meetings&lt;br /&gt;9. The Simian Army&lt;br /&gt;10. Transparent uptime&lt;br /&gt;&lt;br /&gt;Additional Resources&lt;br /&gt;Endnotes</description>
+        <authors>
+          <author>
+            <id>328437</id>
+            <name>Gene Kim</name>
+            <role></role>
+            <image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1361113444p5/328437.jpg]]>
+            </image_url>
+            <small_image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1361113444p2/328437.jpg]]>
+            </small_image_url>
+            <link><![CDATA[https://www.goodreads.com/author/show/328437.Gene_Kim]]></link>
+            <average_rating>4.24</average_rating>
+            <ratings_count>41697</ratings_count>
+            <text_reviews_count>3842</text_reviews_count>
+          </author>
+        </authors>
+        <published>2016</published>
+        <work>
+          <id>46022395</id>
+          <uri>kca://work/amzn1.gr.work.v1._3OvG4ZNHOj-Ip4v-8T4Wg</uri>
+        </work>
+      </book>
+      <rating>0</rating>
+      <votes>0</votes>
+      <spoiler_flag>false</spoiler_flag>
+      <spoilers_state>none</spoilers_state>
+      <shelves>
+        <shelf exclusive='true' id='373159600' name='to-read' review_shelf_id='3329468876' sortable='true'></shelf>
+      </shelves>
+      <recommended_for></recommended_for>
+      <recommended_by></recommended_by>
+      <started_at></started_at>
+      <read_at></read_at>
+      <date_added>Thu Dec 17 13:51:12 -0800 2020</date_added>
+      <date_updated>Thu Dec 17 13:51:13 -0800 2020</date_updated>
+      <read_count>0</read_count>
+      <body>
+      </body>
+      <comments_count>0</comments_count>
+      <url><![CDATA[https://www.goodreads.com/review/show/3700722042]]></url>
+      <link><![CDATA[https://www.goodreads.com/review/show/3700722042]]></link>
+      <owned>0</owned>
+    </review>
+
+    <review>
+      <id>3700718099</id>
+      <book>
+        <id type="integer">44333183</id>
+        <isbn>1942788762</isbn>
+        <isbn13>9781942788768</isbn13>
+        <text_reviews_count type="integer">301</text_reviews_count>
+        <uri>kca://book/amzn1.gr.book.v1.quzaem_ONzHMV7sqNKCv8A</uri>
+        <title>The Unicorn Project</title>
+        <title_without_series>The Unicorn Project</title_without_series>
+        <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566877586l/44333183._SX98_.jpg</image_url>
+        <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566877586l/44333183._SX50_.jpg</small_image_url>
+        <large_image_url/>
+        <link>https://www.goodreads.com/book/show/44333183-the-unicorn-project</link>
+        <num_pages>345</num_pages>
+        <format>Hardcover</format>
+        <edition_information/>
+        <publisher>It Revolution Press</publisher>
+        <publication_day>19</publication_day>
+        <publication_year>2019</publication_year>
+        <publication_month>11</publication_month>
+        <average_rating>4.15</average_rating>
+        <ratings_count>3864</ratings_count>
+        <description>This highly anticipated follow-up to the bestselling title The Phoenix Project takes another look at Parts Unlimited, this time from the perspective of software development. In The Phoenix Project, Bill, an IT manager at Parts Unlimited, is tasked with a project critical to the future of the business, code named Phoenix Project. But the project is massively over budget and behind schedule. The CEO demands Bill fix the mess in ninety days or else Bill's entire department will be outsourced. In The Unicorn Project, we follow Maxine, a senior lead developer and architect, as she is exiled to the Phoenix Project, to the horror of her friends and colleagues, as punishment for contributing to a payroll outage. She tries to survive in what feels like a heartless and uncaring bureaucracy and to work within a system where no one can get anything done without endless committees, paperwork, and approvals. One day, she is approached by a ragtag bunch of misfits who say they want to overthrow the existing order, to liberate developers, to bring joy back to technology work, and to enable the business to win in a time of digital disruption. To her surprise, she finds herself drawn ever further into this movement, eventually becoming one of the leaders of the Rebellion, which puts her in the crosshairs of some familiar and very dangerous enemies. The Age of Software is here, and another mass extinction event looms--this is a story about "red shirt" developers and business leaders working together, racing against time to innovate, survive, and thrive in a time of unprecedented uncertainty...and opportunity.</description>
+        <authors>
+          <author>
+            <id>328437</id>
+            <name>Gene Kim</name>
+            <role></role>
+            <image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1361113444p5/328437.jpg]]>
+            </image_url>
+            <small_image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1361113444p2/328437.jpg]]>
+            </small_image_url>
+            <link><![CDATA[https://www.goodreads.com/author/show/328437.Gene_Kim]]></link>
+            <average_rating>4.24</average_rating>
+            <ratings_count>41697</ratings_count>
+            <text_reviews_count>3842</text_reviews_count>
+          </author>
+        </authors>
+        <published>2019</published>
+        <work>
+          <id>68888421</id>
+          <uri>kca://work/amzn1.gr.work.v1.dDwNT_8u6pxYJj5HE1dBcw</uri>
+        </work>
+      </book>
+      <rating>0</rating>
+      <votes>0</votes>
+      <spoiler_flag>false</spoiler_flag>
+      <spoilers_state>none</spoilers_state>
+      <shelves>
+        <shelf exclusive='true' id='373159601' name='currently-reading' review_shelf_id='3329663539' sortable='false'></shelf>
+      </shelves>
+      <recommended_for></recommended_for>
+      <recommended_by></recommended_by>
+      <started_at>Thu Dec 17 16:18:09 -0800 2020</started_at>
+      <read_at></read_at>
+      <date_added>Thu Dec 17 13:48:40 -0800 2020</date_added>
+      <date_updated>Thu Dec 17 16:18:09 -0800 2020</date_updated>
+      <read_count>1</read_count>
+      <body>
+      </body>
+      <comments_count>0</comments_count>
+      <url><![CDATA[https://www.goodreads.com/review/show/3700718099]]></url>
+      <link><![CDATA[https://www.goodreads.com/review/show/3700718099]]></link>
+      <owned>0</owned>
+    </review>
+
+    <review>
+      <id>3349150125</id>
+      <book>
+        <id type="integer">23692271</id>
+        <isbn nil="true"/>
+        <isbn13 nil="true"/>
+        <text_reviews_count type="integer">23602</text_reviews_count>
+        <uri>kca://book/amzn1.gr.book.v1.4aaEOknMj7166lgef5EmXw</uri>
+        <title>Sapiens: A Brief History of Humankind</title>
+        <title_without_series>Sapiens: A Brief History of Humankind</title_without_series>
+        <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271._SX98_.jpg</image_url>
+        <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420585954l/23692271._SY75_.jpg</small_image_url>
+        <large_image_url/>
+        <link>https://www.goodreads.com/book/show/23692271-sapiens</link>
+        <num_pages>498</num_pages>
+        <format>Paperback</format>
+        <edition_information/>
+        <publisher>Harvill Secker</publisher>
+        <publication_day/>
+        <publication_year>2014</publication_year>
+        <publication_month/>
+        <average_rating>4.43</average_rating>
+        <ratings_count>429298</ratings_count>
+        <description>100,000 years ago, at least six human species inhabited the earth. Today there is just one. Us. Homo sapiens. &lt;br /&gt;&lt;br /&gt;How did our species succeed in the battle for dominance? Why did our foraging ancestors come together to create cities and kingdoms? How did we come to believe in gods, nations and human rights; to trust money, books and laws; and to be enslaved by bureaucracy, timetables and consumerism? And what will our world be like in the millennia to come? &lt;br /&gt;&lt;br /&gt;In &lt;i&gt;Sapiens&lt;/i&gt;, Dr Yuval Noah Harari spans the whole of human history, from the very first humans to walk the earth to the radical – and sometimes devastating – breakthroughs of the Cognitive, Agricultural and Scientific Revolutions. Drawing on insights from biology, anthropology, paleontology and economics, he explores how the currents of history have shaped our human societies, the animals and plants around us, and even our personalities. Have we become happier as history has unfolded? Can we ever free our behaviour from the heritage of our ancestors? And what, if anything, can we do to influence the course of the centuries to come? &lt;br /&gt;&lt;br /&gt;Bold, wide-ranging and provocative, Sapiens challenges everything we thought we knew about being human: our thoughts, our actions, our power ... and our future.</description>
+        <authors>
+          <author>
+            <id>395812</id>
+            <name>Yuval Noah Harari</name>
+            <role></role>
+            <image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1546235045p5/395812.jpg]]>
+            </image_url>
+            <small_image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1546235045p2/395812.jpg]]>
+            </small_image_url>
+            <link><![CDATA[https://www.goodreads.com/author/show/395812.Yuval_Noah_Harari]]></link>
+            <average_rating>4.37</average_rating>
+            <ratings_count>631064</ratings_count>
+            <text_reviews_count>46204</text_reviews_count>
+          </author>
+        </authors>
+        <published>2014</published>
+        <work>
+          <id>18962767</id>
+          <uri>kca://work/amzn1.gr.work.v1.wrue7885k_mhTCRSy0O0VQ</uri>
+        </work>
+      </book>
+      <rating>4</rating>
+      <votes>0</votes>
+      <spoiler_flag>false</spoiler_flag>
+      <spoilers_state>none</spoilers_state>
+      <shelves>
+        <shelf name="read" exclusive="true" id="373159602" review_shelf_id= ""/>
+      </shelves>
+      <recommended_for></recommended_for>
+      <recommended_by></recommended_by>
+      <started_at></started_at>
+      <read_at>Thu Aug 01 00:00:00 -0700 2019</read_at>
+      <date_added>Thu May 21 12:58:48 -0700 2020</date_added>
+      <date_updated>Wed May 27 12:54:31 -0700 2020</date_updated>
+      <read_count>1</read_count>
+      <body>
+      </body>
+      <comments_count>0</comments_count>
+      <url><![CDATA[https://www.goodreads.com/review/show/3349150125]]></url>
+      <link><![CDATA[https://www.goodreads.com/review/show/3349150125]]></link>
+      <owned>0</owned>
+    </review>
+
+    <review>
+      <id>3334146960</id>
+      <book>
+        <id type="integer">17255186</id>
+        <isbn>0988262592</isbn>
+        <isbn13>9780988262591</isbn13>
+        <text_reviews_count type="integer">2016</text_reviews_count>
+        <uri>kca://book/amzn1.gr.book.v1.QUS91Y35Po_SSn5F2LrLqA</uri>
+        <title>The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</title>
+        <title_without_series>The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win</title_without_series>
+        <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361113128l/17255186._SX98_.jpg</image_url>
+        <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361113128l/17255186._SX50_.jpg</small_image_url>
+        <large_image_url/>
+        <link>https://www.goodreads.com/book/show/17255186-the-phoenix-project</link>
+        <num_pages>345</num_pages>
+        <format>Hardcover</format>
+        <edition_information/>
+        <publisher>IT Revolution Press</publisher>
+        <publication_day>10</publication_day>
+        <publication_year>2013</publication_year>
+        <publication_month>1</publication_month>
+        <average_rating>4.27</average_rating>
+        <ratings_count>26683</ratings_count>
+        <description>Bill is an IT manager at Parts Unlimited. It's Tuesday morning and on his drive into the office, Bill gets a call from the CEO. &lt;br /&gt;&lt;br /&gt;The company's new IT initiative, code named Phoenix Project, is critical to the future of Parts Unlimited, but the project is massively over budget and very late. The CEO wants Bill to report directly to him and fix the mess in ninety days or else Bill's entire department will be outsourced. &lt;br /&gt;&lt;br /&gt;With the help of a prospective board member and his mysterious philosophy of The Three Ways, Bill starts to see that IT work has more in common with manufacturing plant work than he ever imagined. With the clock ticking, Bill must organize work flow streamline interdepartmental communications, and effectively serve the other business functions at Parts Unlimited. &lt;br /&gt;&lt;br /&gt;In a fast-paced and entertaining style, three luminaries of the DevOps movement deliver a story that anyone who works in IT will recognize. Readers will not only learn how to improve their own IT organizations, they'll never view IT the same way again.</description>
+        <authors>
+          <author>
+            <id>328437</id>
+            <name>Gene Kim</name>
+            <role></role>
+            <image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1361113444p5/328437.jpg]]>
+            </image_url>
+            <small_image_url nophoto='false'>
+              <![CDATA[https://images.gr-assets.com/authors/1361113444p2/328437.jpg]]>
+            </small_image_url>
+            <link><![CDATA[https://www.goodreads.com/author/show/328437.Gene_Kim]]></link>
+            <average_rating>4.24</average_rating>
+            <ratings_count>36076</ratings_count>
+            <text_reviews_count>3401</text_reviews_count>
+          </author>
+        </authors>
+        <published>2013</published>
+        <work>
+          <id>23848838</id>
+          <uri>kca://work/amzn1.gr.work.v1.Gw7Pzt1ZTfANAJO5RtlpZw</uri>
+        </work>
+      </book>
+
+
+      <rating>0</rating>
+      <votes>0</votes>
+      <spoiler_flag>false</spoiler_flag>
+      <spoilers_state>none</spoilers_state>
+
+
+      <shelves>
+
+        <shelf exclusive='true' id='373159600' name='to-read' review_shelf_id='2974114522' sortable='true'></shelf>
+
+      </shelves>
+
+      <recommended_for></recommended_for>
+      <recommended_by></recommended_by>
+      <started_at></started_at>
+      <read_at></read_at>
+      <date_added>Wed May 13 05:16:07 -0700 2020</date_added>
+      <date_updated>Wed May 13 05:16:08 -0700 2020</date_updated>
+      <read_count>0</read_count>
+      <body>
+      </body>
+
+
+
+      <comments_count>0</comments_count>
+      <url><![CDATA[https://www.goodreads.com/review/show/3334146960]]></url>
+      <link><![CDATA[https://www.goodreads.com/review/show/3334146960]]></link>
+      <owned>0</owned>
+    </review>
+
+  </reviews>
+
+</GoodreadsResponse>

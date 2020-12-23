@@ -1,4 +1,4 @@
 export interface BookDataFetcher {
-  fetch(): any;
+  fetch(): Promise<string>;
   incrementPage(): void;
 }
