@@ -1,6 +1,6 @@
 import { BookDataFetcher } from './book-data-fetcher';
 import { BookDataParser } from './book-data-parser';
-import { Bookshelf } from './bookshelf';
+import { BaseBookshelf } from './base-bookshelf';
 import { Book } from './book';
 import { BookDTO } from './book-dto';
 
@@ -14,7 +14,7 @@ export class BookshelfBuilder {
     this._dataParser = parser;
   }
 
-  async build(): Promise<Bookshelf> {
+  async build(): Promise<BaseBookshelf> {
     while (!this._dataParser.done()) {
       const rawData: string = await this._dataFetcher.fetch();
       this._dataFetcher.incrementPage();
@@ -25,6 +25,6 @@ export class BookshelfBuilder {
     jsonBooks.forEach((bj: BookDTO) => {
       books.push(new Book(bj));
     });
-    return new Bookshelf(books);
+    return new BaseBookshelf(books);
   }
 }

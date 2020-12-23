@@ -1,16 +1,16 @@
-import { Bookshelf } from './../bookshelf';
-import { BookDTO } from './../book-dto';
+import { BaseBookshelf } from '../base-bookshelf';
+import { BookDTO } from '../book-dto';
 import { Book } from '..';
 import { Shelf } from '../shelf';
 
-describe('Bookshelf class', () => {
-  let bookshelf: Bookshelf;
+describe('BaseBookshelf class', () => {
+  let bookshelf: BaseBookshelf;
   beforeEach(async () => {
-    bookshelf = new Bookshelf(getBooks());
+    bookshelf = new BaseBookshelf(getBooks());
   });
 
   it('successfully constructs a Bookshelf', () => {
-    expect(bookshelf).toBeInstanceOf(Bookshelf);
+    expect(bookshelf).toBeInstanceOf(BaseBookshelf);
   });
 
   describe('shelf filters', () => {

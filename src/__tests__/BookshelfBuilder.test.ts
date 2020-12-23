@@ -3,7 +3,7 @@ import { BookshelfBuilder } from "./../bookshelf-builder";
 import { BookDataFetcher } from "./../book-data-fetcher";
 import { BookDataFileReader } from "../book-data-file-reader";
 import { BookXmlParser } from "../book-xml-parser";
-import { Bookshelf } from "../bookshelf";
+import { BaseBookshelf } from "../base-bookshelf";
 
 describe('BookshelfBuilder class', () => {
   const GR_RESPONSE_FILE = './__tests__/goodreads-response.xml';
@@ -21,8 +21,8 @@ describe('BookshelfBuilder class', () => {
   });
 
   it('succesfully builds a bookshelf', () => {
-    return bookshelfBuilder.build().then((result: Bookshelf) => {
-      expect(result).toBeInstanceOf(Bookshelf);
+    return bookshelfBuilder.build().then((result: BaseBookshelf) => {
+      expect(result).toBeInstanceOf(BaseBookshelf);
     })
   });
 });
