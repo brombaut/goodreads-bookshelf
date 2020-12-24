@@ -19,12 +19,17 @@ export class GoodreadsApiFetcher implements BookDataFetcher {
   async fetch() {
     // NOTE: will have to confirm this works when the client it using it from the browser
     const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-    const fullUrl = `${this.url}`;
-    const response = await fetch(fullUrl);
+    const fullUrl = `${proxyUrl}${this.url}`;
+    const payloadHeaders = {
+      headers: {
+        'X-Requested-With': 'XMLHttpRequest'
+      }
+    }
+    const response = await fetch(fullUrl, payloadHeaders);
     if (!response.ok) {
       throw new Error('Error making request');
     }
-    const body = response.text();
+    const body = await response.text();
     return body;
   }
 
