@@ -5,12 +5,21 @@
 ![npm](https://img.shields.io/npm/v/goodreads-bookshelf?color=blue)
 ![David](https://img.shields.io/david/brombaut/goodreads-bookshelf)
 
+## Install
+
+```bash
+npm i goodreads-bookshelf
+```
+
 ## Usage
+
+You will need to provide your own [Goodreads API](https://www.goodreads.com/api) developer ID and key.
 
 ```typescript
 import { GoodreadsBookshelf, Book, Shelf } from "goodreads-bookshelf";
 
-const myBookshelf: GoodreadsBookshelf = new GoodreadsBookshelf(<Goodread Id>, <Goodreads Key>);
+const myBookshelf: GoodreadsBookshelf =
+  new GoodreadsBookshelf(<Goodread Id>, <Goodreads Key>);
 await myBookshelf.getBooks();
 const myReadingBooks: Book[] = myBookshelf.readingBooks();
 const myReadBooks: Book[] = myBookshelf.readBooks();
