@@ -22,9 +22,9 @@ export class GoodreadsApiFetcher implements BookDataFetcher {
     const fullUrl = `${proxyUrl}${this.url}`;
     const payloadHeaders = {
       headers: {
-        'X-Requested-With': 'XMLHttpRequest'
-      }
-    }
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+    };
     const response = await fetch(fullUrl, payloadHeaders);
     if (!response.ok) {
       throw new Error('Error making request');
