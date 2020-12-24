@@ -8,6 +8,8 @@
 ## Usage
 
 ```typescript
+import { GoodreadsBookshelf, Book, Shelf } from "goodreads-bookshelf";
+
 const myBookshelf: GoodreadsBookshelf = new GoodreadsBookshelf(<Goodread Id>, <Goodreads Key>);
 await myBookshelf.getBooks();
 const myReadingBooks: Book[] = myBookshelf.readingBooks();
