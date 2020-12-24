@@ -8,7 +8,7 @@ export class GoodreadsApiFetcher implements BookDataFetcher {
   private _perPage;
   private _page;
 
-  constructor(id: string, key: string, version: number = 2, perPage: number = 2, page: number = 1) {
+  constructor(id: string, key: string, version: number = 2, perPage: number = 199, page: number = 1) {
     this._id = id;
     this._key = key;
     this._version = version;
