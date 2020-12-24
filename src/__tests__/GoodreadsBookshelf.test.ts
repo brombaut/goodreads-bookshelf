@@ -1,6 +1,6 @@
 import { GoodreadsBookshelf } from './../goodreads-bookshelf';
 import goodreadsconfig from '../config/goodreads-config';
-import { Book } from "../book";
+import { Book } from '../book';
 
 describe('GoodreadsApiFetcher class', () => {
   let gb: GoodreadsBookshelf;
@@ -15,7 +15,7 @@ describe('GoodreadsApiFetcher class', () => {
 
   it('successfully builds a bookshelf', async () => {
     await gb.getBooks();
-    expect(gb.readBooks()).not.toHaveLength(0)
+    expect(gb.readBooks()).not.toHaveLength(0);
     gb.readBooks().forEach((book: Book) => {
       expect(book).toBeInstanceOf(Book);
     });
@@ -26,5 +26,4 @@ describe('GoodreadsApiFetcher class', () => {
     const groupedByYear: { [key: number]: Book[] } = gb.readBooksGroupedByYear();
     expect(groupedByYear).toBeDefined();
   });
-
 });
