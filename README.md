@@ -19,7 +19,7 @@ You will need to provide your own [Goodreads API](https://www.goodreads.com/api)
 import { GoodreadsBookshelf, Book, Shelf } from "goodreads-bookshelf";
 
 const myBookshelf: GoodreadsBookshelf =
-  new GoodreadsBookshelf(<Goodread Id>, <Goodreads Key>);
+  new GoodreadsBookshelf("Goodread Id", "Goodreads Key");
 await myBookshelf.getBooks();
 const myReadingBooks: Book[] = myBookshelf.readingBooks();
 const myReadBooks: Book[] = myBookshelf.readBooks();
