@@ -28,7 +28,6 @@ export class GoodreadsApiFetcher implements BookDataFetcher {
     let response = await fetch(fullUrl, payloadHeaders);
     if (!response.ok) {
       response = await fetch(fullUrl, payloadHeaders);
-      throw new Error('Error making request');
     }
     if (!response.ok) {
       throw new Error('Error making request');
