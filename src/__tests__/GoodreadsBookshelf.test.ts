@@ -14,6 +14,7 @@ describe('GoodreadsApiFetcher class', () => {
   });
 
   it('successfully builds a bookshelf', async () => {
+    jest.setTimeout(15000);
     await gb.getBooks();
     expect(gb.readBooks()).not.toHaveLength(0);
     gb.readBooks().forEach((book: Book) => {

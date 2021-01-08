@@ -25,10 +25,15 @@ export class GoodreadsApiFetcher implements BookDataFetcher {
         'X-Requested-With': 'XMLHttpRequest',
       },
     };
-    const response = await fetch(fullUrl, payloadHeaders);
+    let response = await fetch(fullUrl, payloadHeaders);
+    if (!response.ok) {
+      response = await fetch(fullUrl, payloadHeaders);
+      throw new Error('Error making request');
+    }
     if (!response.ok) {
       throw new Error('Error making request');
     }
+
     const body = await response.text();
     return body;
   }

@@ -18,17 +18,21 @@ describe('GoodreadsApiFetcher class', () => {
   });
 
   it('successfully hits the goodreads api', () => {
+    jest.setTimeout(15000);
     expect.assertions(1);
     return gaf.fetch().then((data: string) => {
       expect(data).toBeDefined();
     });
   });
 
-  // it('throws an error with an invalid file', () => {
-  //   const failedBdfr: BookDataFileReader = new BookDataFileReader(`${GR_RESPONSE_FILE}ERROR`);
-  //   expect.assertions(1);
-  //   return failedBdfr.fetch().catch((err: string) => {
-  //     expect(err).toBe('Could not read file');
-  //   });
-  // });
+  it('Gives a good error when the api request fails', () => {
+    jest.setTimeout(15000);
+    expect.assertions(1);
+    const failedGaf: GoodreadsApiFetcher = 
+      new GoodreadsApiFetcher(`${goodreadsconfig.id}_WRONG`, `${goodreadsconfig.key}_WRONG`);
+    expect.assertions(1);
+    return failedGaf.fetch().catch((err: string) => {
+      expect(err).toBeTruthy()
+    });
+  });
 });
